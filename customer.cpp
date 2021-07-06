@@ -19,7 +19,7 @@ public:
 		if(a.arrival<b.arrival)
 		{ return true;}	else{ return false;}
 	}
-	customer operator =(customer& rhs)
+	customer operator =(const customer& rhs)
 	{
 		arrival = rhs.get_arr();
 		service_time = rhs.get_ser();
